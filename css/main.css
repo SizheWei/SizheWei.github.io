@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 100%;
+    width: 40%;
 }
 
 nav ul, footer ul {
@@ -14,7 +14,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 .span14 {
-    width: 970px;
+    width: 940px;
 }
 
 /* .container{
