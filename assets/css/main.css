@@ -80,6 +80,7 @@ input, select, textarea {
 
 	*, *:before, *:after {
 		box-sizing: inherit;
+		/*box-sizing: border-box;*/
 	}
 
 	body {
@@ -274,11 +275,27 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.item {
+    		display: table;
+   			width: 100%;
+    		margin-bottom: 15px;
+		}
+
+		.item_inline {
+ 		   	display: table-cell;
+    		vertical-align: middle;
+		}
+	
+
 		@media screen and (max-width: 980px) {
 
 			.container {
 				width: 100% !important;
 				max-width: 100% !important;
+			}
+
+			.item_image {
+    		display: none;
 			}
 
 		}
