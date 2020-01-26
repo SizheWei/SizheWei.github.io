@@ -2587,12 +2587,12 @@ input, select, textarea {
 
 
 		background-attachment: fixed,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("../../images/bg.png");
 		background-position: top left,							top right;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto;
 
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(0, 0, 0, 0.5);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2620,7 +2620,8 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #000000;
+			font-size: 1.75em;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2628,7 +2629,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(0, 0, 0, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2646,11 +2647,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(0, 0, 0, 0.4);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(0, 0, 0, 0.4);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -3062,7 +3063,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: /*url("images/overlay.png"),*/ url("../../images/bg.png");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
