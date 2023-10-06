@@ -1278,14 +1278,16 @@ article img {
 	color: #ADD8E6;
 }
 
-.ai {
-	opacity: 0.7;
+.social-icons {
+	font-size: 1.5rem;
 	color: #fff;
+	/* text-align: center; */
 }
 
-.ai:hover {
-	opacity: 0.7;
+.social-icons:hover {
+	font-size: 1.5rem;
 	color: #ADD8E6;
+	/* text-align: center; */
 }
 
 /* Set a specific color for each brand */
