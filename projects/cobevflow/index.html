@@ -1,0 +1,332 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <!--
+  <script src="./resources/jsapi" type="text/javascript"></script>
+  <script type="text/javascript" async>google.load("jquery", "1.3.2");</script>
+ -->
+
+<style type="text/css">
+  @font-face {
+   font-family: 'Avenir Book';
+   src: url("./fonts/Avenir_Book.ttf"); /* File to be stored at your site */
+   }
+
+  body {
+    font-family: "Avenir Book", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:300;
+    font-size:14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+  }
+  h1 {
+    font-weight:300;
+  }
+  h2 {
+    font-weight:300;
+  }
+
+  p {
+    font-weight:300;
+    line-height: 1.4;
+  }
+
+  code {
+    font-size: 0.8rem;
+    margin: 0 0.2rem;
+    padding: 0.5rem 0.8rem;
+    white-space: nowrap;
+    background: #efefef;
+    border: 1px solid #d3d3d3;
+    color: #000000;
+    border-radius: 3px;
+  }
+
+  pre > code {
+    display: block;
+    white-space: pre;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+  }
+
+  pre.prettyprint > code {
+    border: none;
+  }
+
+
+  .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+  }
+  .image {
+        flex-basis: 40%
+  }
+  .text {
+        padding-left: 20px;
+        padding-right: 20px;
+  }
+
+  .disclaimerbox {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    padding: 20px;
+  }
+
+  video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.header-img {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.rounded {
+    border: 0px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+
+  }
+
+  a:link,a:visited
+  {
+    color: #1367a7;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #208799;
+  }
+
+  td.dl-link {
+    height: 160px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+            15px 15px 0 0px #fff, /* The fourth layer */
+            15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+            20px 20px 0 0px #fff, /* The fifth layer */
+            20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+            25px 25px 0 0px #fff, /* The fifth layer */
+            25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+
+
+  .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+
+  .vert-cent {
+    position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  hr
+  {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+</style>
+	<title>Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow</title>
+</head>
+
+<body>
+	<br>
+	<center>
+	<span style="font-size:36px">Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow</span><br><br><br>
+	</center>
+	<table align="center" width="800px">
+        <tbody>
+            <tr>
+                <td align="center" width="115px">
+                    <center>
+                    <span style="font-size:16px"><a href="https://sizhewei.github.io/">Sizhe Wei</a><sup> *1</sup></span>
+                    </center>
+                </td>
+                <td align="center" width="110px">
+                    <center>
+                    <span style="font-size:16px"><a href="https://www.linkedin.cn/incareer/in/ACoAADSxRKcB7zJIIKFvPU9bvO1G2BT7Mx6S4vw">Yuxi Wei</a><sup> *1</sup></span>
+                    </center>
+                </td>
+                <td align="center" width="95px">
+                    <center>
+                    <span style="font-size:16px"><a href="https://phyllish.github.io">Yue Hu</a><sup> 1</sup></span>
+                    </center>
+                </td>
+                <td align="center" width="105px">
+                    <center>
+                    <span style="font-size:16px"><a href="https://yifanlu0227.github.io/">Yifan Lu</a><sup> 1</sup></span>
+                    </center>
+                </td>
+                <td align="center" width="130px">
+                    <center>
+                    <span style="font-size:16px"><a href="https://scholar.google.com/citations?user=Bv8l8jkAAAAJ&hl=en&authuser=1">Yiqi Zhong</a><sup> 2</sup></span>
+                    </center>
+                </td>
+                <td align="center" width="130px">
+                    <center>
+                    <span style="font-size:16px"><a href="http://siheng-chen.github.io/">Siheng Chen</a><sup> 1,3</sup></span>
+                    </center>
+                </td>
+                <td align="center" width="110px">
+                    <center>
+                    <span style="font-size:16px"><a href="https://mediabrain.sjtu.edu.cn/yazhang/">Ya Zhang</a><sup> 1,3</sup></span>
+                    </center>
+                </td>
+                
+            </tr>
+        </tbody>
+    </table><br>
+	
+	<table align="center" width="800px">
+        <tbody><tr>
+            <td align="center" width="300px">
+                <center>
+                    <span style="font-size:16px"><sup>1 </sup><a href="https://cmic.sjtu.edu.cn/CN/Default.aspx">CMIC</a>, <a href="https://en.sjtu.edu.cn">Shanghai Jiao Tong University</a></span>
+                </center>
+            </td>
+            <td align="center" width="250px">
+                <center>
+                    <span style="font-size:16px"><sup>2 </sup><a href="https://www.usc.edu">University of Southern California</a></span>
+                </center>
+            </td>
+            <td align="center" width="200px">
+                <center>
+                    <span style="font-size:16px"><sup>3 </sup><a href="https://www.shlab.org.cn">Shanghai AI Lab</a></span>
+                </center>
+            </td>
+        </tr></tbody></table>
+	
+	<table align="center" width="700px">
+        <tbody><tr>
+            <td align="center" width="200px">
+            <center>
+                <br>
+                <span style="font-size:20px">
+                <a href="https://github.com/SizheWei/CoBEVFlow"> Code </a>
+                </span>
+            </center>
+            </td>
+
+            <td align="center" width="400px">
+            <center>
+                <br>
+                <span style="font-size:20px">
+                <a href="https://arxiv.org/abs/2309.16940"> Paper </a>
+                </span>
+            </center>
+            </td>
+
+            <td align="center" width="200px">
+            <center>
+                <br>
+                <span style="font-size:20px">
+                <a href="./cite.txt"> Cite </a>
+                </span>
+            </center>
+            </td>
+        </tr></tbody>
+    </table>
+	
+    <br><hr>
+    <center><h2> Abstract </h2> </center>
+    <p style="text-align:justify; text-justify:inter-ideograph;">
+    <left>
+        By facilitating communication among multiple agents, collaborative perception can substantially boost each agent's perception ability. However, temporal asynchrony among agents is inevitable in real-world due to communication delays, interruptions, and clock misalignments. This issue causes information mismatch during multi-agent fusion, seriously shaking the foundation of collaboration. To address this issue, we propose CoBEVFlow, an asynchrony-robust collaborative 3D perception system based on bird's eye view (BEV) flow. The key intuition of CoBEVFlow is to compensate motions to align asynchronous collaboration messages sent by multiple agents. To model the motion in a scene, we propose BEV flow, which is a collection of the motion vector corresponding to each spatial location. Based on BEV flow, asynchronous perceptual features can be reassigned to appropriate positions, mitigating the impact of asynchrony. CoBEVFlow has two advantages: (i) CoBEVFlow can handle asynchronous collaboration messages sent at irregular, continuous time stamps without discretization; and (ii) with BEV flow, CoBEVFlow only transports the original perceptual features, instead of generating new perceptual features, avoiding additional noises. To validate CoBEVFlow's efficacy, we create IRregular V2V(IRV2V), the first synthetic collaborative perception dataset with various temporal asynchronies that simulate different real-world scenarios. Extensive experiments conducted on both IRV2V and the real-world dataset DAIR-V2X show that CoBEVFlow consistently outperforms other baselines and is robust in extremely asynchronous settings.
+    </left></p>
+
+    <br><hr>
+    <center> <h2> Architecture </h2> </center>
+    <p style="text-align:justify; text-justify:inter-ideograph;">
+    <left>
+        The problem of asynchrony results in the misplacements of moving objects in the collaboration messages. That is, the collaboration messages from multiple agents would record various positions for the same moving object. The proposed CoBEVFlow addresses this issue with two key ideas: i) we use a BEV flow map to capture the motion in a scene, enabling motion-guided reassigning asynchronous perceptual features to appropriate positions; and ii) we generate the region of interest(ROI) to make sure that the reassignment only happens to the areas that potentially contain objects. By following these two ideas, we eliminate direct modification of the features and keep the background feature unaltered, effectively avoiding unnecessary noise in the learned features. Figure 1 is the overview of the CoBEVFlow. More tech details can be found in our paper. 
+      </left></p>
+      <p><img class="left"  src="./images/method.jpg" width="800px"></p>
+      <p style="font-size: 90%;color: #999999">Figure 1. Message packing process prepares ROI and sparse features as the message for efficient communication and BEV flow map generation. Message fusion process generates and applies BEV flow map for compensation, and fuses the features at the current timestamp from all agents.</p>
+	
+      <!-- <br><hr>
+      <center> <h2> Visualization </h2> </center>
+      <p style="text-align:justify; text-justify:inter-ideograph;">
+      <left>
+        Zero-shot visualization of randomly chosen samples from ChestX-Det10, we present both the original image (left) and attention maps generated from KAD, KAD-512, and KAD-1024. In the original images, red boxes denote lesion areas annotated by radiologists. In the attention maps, the red to blue spectrum is plot on the original image with red representing high-attention regions and blue representing low attention.
+      </left></p>
+      <p><img class="left"  src="./resources/visualize.png" width="800px"></p> -->
+	
+      <br><hr>
+      <center><h2>Results</h2></center>
+      <p><b> Benchmark Comparison </b> </p>
+      <p><left>
+        The baseline methods include late fusion, DiscoNet, V2VNet, V2X-ViT and Where2comm. The red dashed line represents single-agent detection without collaboration. We also consider the integration of SyncNet with Where2comm, which presents the SOTA method Where2comm with resistance to time delay. All methods use the same feature encoder based on PointPillars. To simulate temporal asynchrony, we sample the frame intervals of received messages with binomial distribution to get random irregular time intervals. Fig. 4 shows the detection performances (AP@IoU=0.50/0.70) of the proposed CoBEVFlow and the baseline methods under varying levels of temporal asynchrony on both IRV2V and DAIR-V2X, where the x-axis is the expectation of the time interval of delay of the latest received information and interval between adjacent frames and y-axis the detection performance. Note that, when the x-axis is at 0, it represents standard collaborative perception without any asynchrony. We see that i) the proposed CoBEVFlow achieves the best performance in both simulation and real-world datasets at all asynchronous settings. On the IRV2V dataset, CoBEVFlow outperforms the best methods by 23.3% and 35.3% in terms of AP@0.50 and AP@0.70, respectively, under a 300ms interval expectation. Similarly, under a 500ms interval expectation, we achieve 30.3% and 28.2% improvements, respectively. On DAIR-V2X dataset, CoBEVFlow still performs best. ii) CoBEVFlow demonstrates remarkable robustness to asynchrony. As shown by the red line in the graph, CoBEVFlow exhibits a decrease of only 4.94% and 14.0% in AP@0.50 and AP@0.70, respectively, on the IRV2V dataset under different asynchrony. These results far exceed the performance of single-object detection, even under extreme asynchrony.
+      </left></p>
+      <p><img class="center"  src="./images/main-results.png" width="800px"></p>
+      <p style="font-size: 90%;color: #999999">Figure 2. Comparison of the performance of CoBEVFlow and other baseline methods under the expectation of time interval from 0 to 500ms. CoBEVFlow outperforms all the baseline methods and shows great robustness under any level of asynchrony on both two datasets.</p>
+
+      <p><b> Communication Cost </b> </p>	
+      <p><left>
+        CoBEVFlow allows agents to share only sparse perceptual features and the ROI set, which is communication bandwidth friendly. Figure 3 compares the proposed CoBEVFlow with the previous methods in terms of the trade-off between detection performance (AP@0.50/0.70)  and communication bandwidth under asynchrony. We adopt the same asynchrony settings mentioned before and choose 300ms as the expectation of the time interval. We see: i) CoBEVFlow consistently outperforms the state-of-the-art communication efficient solution, where2comm, as well as the other baselines in the setting of asynchrony; ii) as the communication volume increases, the performance of CoBEVFlow continues to improve steadily, while the performance of where2comm and where2comm+SyncNet fluctuates due to improper information transformation caused by asynchrony.
+      </left></p>
+      <center><p><img class="center"  src="./images/result-volume.png" width="400px"></p></center>
+      <p style="font-size: 90%;color: #999999">Figure 3. Trade-off between detection performance (AP@0.50/0.70) and communication bandwidth under asynchrony (expected 300ms latency) on IRV2V dataset. CoBEVFlow outperforms even with a much smaller communication volume.</p>      
+
+      <p><b> Visualization on IRV2V and DAIR-V2X Dataset </b> </p>	
+      <p><left>
+        We illustrate the detection results of V2X-ViT, SyncNet, and CoBEVFlow at three asynchrony levels on the IRV2V dataset in Figure 4 and the DAIR-V2X dataset in Figure 5. The expectations of time intervals are 100, 300, 500ms. The red box represents the detection result and the green box represents the ground-truth. V2X-ViT shows significant deviations in collaborative perception under asynchrony, while SyncNet shows poor compensation due to introducing noise in feature regeneration and irregularity-incompatible design. The third row shows the results of CoBEVFlow, which achieve precise compensation and outstanding detections.
+      </left></p>
+      <p><img class="center"  src="./images/viz-1.png" width="800px"></p>
+      <p style="font-size: 90%;color: #999999">Figure 4. Visualization of detection results for V2X-ViT, SyncNet, and CoBEVFlow with the expectation of time intervals are 100, 300, and 500ms on IRV2V dataset. CoBEVFlow qualitatively outperforms the others under different asynchrony. <font color="red">Red</font> and <font color="green">green</font> boxes denote detection results and ground-truth respectively.</p>
+      <p><img class="center"  src="./images/viz-2.png" width="800px"></p>
+      <p style="font-size: 90%;color: #999999">Figure 5. Visualization of detection results for Where2comm, V2X-ViT, SyncNet, and CoBEVFlow with the expectation of time intervals are 100, 300, and 500ms on DAIR-V2X dataset. CoBEVFlow qualitatively outperforms the others under different asynchrony. <font color="red">Red</font> and <font color="green">green</font> boxes denote detection results and ground-truth respectively.</p>
+
+      <p><b> Visualization of BEV flow map </b> </p>	
+      <p><left>
+        Figure 6 visualizes the feature map before/after compensation of CoBEVFlow in Plot(a)(b), the corresponding flow map in Plot(c), and matching, detection results after compensation in Plot(d). The green boxes in Plot (d) are the ground truth, the blue boxes are the historical detections with the matched asynchronous ROIs and the red boxes are the compensated detections. We see that the BEV flow map can be precisely estimated and is beneficial for perceptual feature alignment. The compensated detection results are more accurate than the uncompensated ones.
+      </left></p>
+      <p><img class="center"  src="./images/viz-flow.png" width="800px"></p>
+      <p style="font-size: 90%;color: #999999">Figure 6. Visualization of compensation with CoBEVFlow on IRV2V dataset. In subfigure(d), <font color="green">green</font> boxes are the objects' ground truth locations, <font color="blue">blue</font> boxes are the detection results based on the historical asynchronous features and <font color="red">red</font> boxes are the detection results after compensation. CoBEVFlow achieves precise matching and compensation with the BEV flow map and mitigates the negative impact of asynchrony to a great extent.</p>
+    <br>
+        <hr>
+        <center> <h2> Conclusion </h2> </center>
+        <p> 
+            We formulate the asynchrony collaborative perception task, which considers various unideal factors that may cause communication latency or information misalignments during collaborative communication. We further propose CoBEVFlow, a novel asynchrony-robust collaborative perception framework. The core idea of CoBEVFlow is BEV flow, which is a collection of the motion vector corresponding to each spatial location. Based on BEV flow, asynchronous perceptual features can be reassigned to appropriate positions, mitigating the impact of asynchrony. Comprehensive experiments show that CoBEVFlow achieves outstanding performance under all settings and far superior robustness with asynchrony.
+        </p>
+    <br> <hr>
+
+
+<br>
+</body>
+</html>
