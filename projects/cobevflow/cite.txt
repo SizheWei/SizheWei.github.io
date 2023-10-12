@@ -1,8 +1,6 @@
-@misc{wei2023robust,
+@inproceedings{wei2023asynchronyrobust,
       title={Asynchrony-Robust Collaborative Perception via Bird's Eye View Flow}, 
       author={Sizhe Wei and Yuxi Wei and Yue Hu and Yifan Lu and Yiqi Zhong and Siheng Chen and Ya Zhang},
-      year={2023},
-      eprint={2309.16940},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      booktitle = {Advances in Neural Information Processing Systems},
+      year={2023}
 }
