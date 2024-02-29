@@ -602,7 +602,7 @@ a:hover,a:focus,a:active {
 	text-align: center;
 	font-weight: bold
 }
-
+/* 
 .sidebar {
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -610,6 +610,15 @@ a:hover,a:focus,a:active {
 	background-attachment: fixed;
 	background-color: #000;
 	display: none
+} */
+
+.sidebar {
+	background-position: center; /* 背景图片居中显示 */
+	background-repeat: no-repeat;
+	background-size: cover; /* 背景图片覆盖整个容器 */
+	background-attachment: fixed;
+	background-color: #000;
+	display: none;
 }
 
 .cover {
@@ -780,10 +789,17 @@ article img {
 	display: block
 }
 
-@media only screen and (max-width: 920px) {
+/* @media only screen and (max-width: 920px) {
 	.sidebar {
 		background-position: 50% 50px;
 		background-size: 100%
+	}
+} */
+
+@media only screen and (max-width: 920px) {
+	.sidebar {
+		display: block;
+		background-position: center; /* 保持居中，适应不同尺寸 */
 	}
 }
 
