@@ -2,4 +2,4 @@ _site
 *.DS_Store
 
 backup
-./files/certificates/
+assets/files/certificates
