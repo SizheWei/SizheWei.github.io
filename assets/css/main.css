@@ -782,7 +782,7 @@ article img {
 
 @media only screen and (max-width: 920px) {
 	.sidebar {
-		background-position: 50% 50px;
+		background-position: 50% 0;
 		background-size: 100%
 	}
 }
@@ -910,7 +910,14 @@ article img {
 
 	.article-content-wrapper {
 		margin-left: 3%;
-		margin-right: 3%
+		margin-right: 3%;
+		margin-top: -40px;
+	}
+
+	@media only screen and (max-width: 920px) {
+		.article-content-wrapper {
+			margin-top: 0px;  /* 在移动端使用正边距 */
+		}
 	}
 
 	.cover-text {
